@@ -18,12 +18,12 @@ const Navbar = () => {
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f]  text-gray-300">
-      <div className="">
+      <div className="flex items-center ">
         <img
           src={Logo}
           alt="Logo Image"
-          style={{ width: "160px" }}
-          className="p-10"
+          style={{ width: "100px" }}
+          className="md:pl-5"
         />
       </div>
 
@@ -47,6 +47,11 @@ const Navbar = () => {
         <li>
           <Link to="work" smooth={true} duration={500}>
             Work
+          </Link>
+        </li>
+        <li>
+          <Link to="certificate" smooth={true} duration={500}>
+            Certificate
           </Link>
         </li>
         <li>
@@ -90,6 +95,17 @@ const Navbar = () => {
           {" "}
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
             Work
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          {" "}
+          <Link
+            onClick={handleClick}
+            to="certificate"
+            smooth={true}
+            duration={500}
+          >
+            Certificate
           </Link>
         </li>
         <li className="py-6 text-4xl">

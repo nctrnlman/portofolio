@@ -31,7 +31,7 @@ export const data = [
     id: 4,
     name: "Shopify E-Commerce",
     image: Shopify,
-    github: "https://github.com/nctrnlman/JCWDOL0910",
+    github: "https://github.com/nctrnlman/JCWDOL0910/tree/main/projects",
     live: "https://shopify-client-steel.vercel.app/",
   },
   {

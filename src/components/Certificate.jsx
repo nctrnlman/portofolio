@@ -1,22 +1,22 @@
 import React from "react";
-import { data } from "../data/data.js";
+import { certificate } from "../data/certificate";
 
 function Certificate() {
   // projects file
-  const project = data;
+  const project = certificate;
   //setProject(data);
 
   return (
     <div
-      name="work"
-      className="w-full md:h-screen text-gray-300 bg-[#0a192f] pt-[400px] md:pt-0"
+      name="certificate"
+      className="w-full md:h-screen text-gray-300 bg-[#0a192f] md:pt-[800px] "
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
-            Work
+            Certificate
           </p>
-          <p className="py-6">// Check out some of my recent work</p>
+          <p className="py-6">// Check out some of my recent certificate</p>
         </div>
 
         {/* container for projects */}
@@ -39,21 +39,21 @@ function Certificate() {
                 </span>
                 <div className="pt-8 text-center ">
                   {/* eslint-disable-next-line */}
-                  <a href={item.github} target="_blank">
+                  {/* <a href={item.github} target="_blank">
                     <button
                       className="text-center rounded-lg px-4 py-3 m-2
                         bg-white text-gray-700 font-bold text-lg"
                     >
                       Code
                     </button>
-                  </a>
+                  </a> */}
                   {/* eslint-disable-next-line */}
                   <a href={item.live} target="_blank">
                     <button
                       className="text-center rounded-lg px-4 py-3 m-2
                         bg-white text-gray-700 font-bold text-lg"
                     >
-                      Live
+                      Detail
                     </button>
                   </a>
                 </div>

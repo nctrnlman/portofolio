@@ -39,7 +39,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-[#0a192f] flex justify-center items-center p-4"
+      className="w-full h-[400hv] bg-[#0a192f] flex justify-center items-center p-4 md:pt-[900px] "
     >
       <form
         onSubmit={handleSubmit}
@@ -49,10 +49,10 @@ const Contact = () => {
           <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
             Contact
           </p>
-          {/* <p className="text-gray-300 py-4">
-            // Submit the form below or shoot me an email -
-            vutukuri.kumar192st.niituniversity.in
-          </p> */}
+          <p className="text-gray-300 py-4">
+            // Feel free to drop me a message. Whether you want to discuss a
+            project, inquire about my services, or just say hello, I'm here!
+          </p>
         </div>
         <input
           className="bg-[#ccd6f6] p-2"

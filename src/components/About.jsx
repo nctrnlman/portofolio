@@ -27,7 +27,7 @@ const About = () => {
               alt="Rhazes Devino"
               className="mt-4 rounded-full w-48 h-48 object-cover mx-auto"
             />
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center mt-4">
               <div className="flex gap-4">
                 <a
                   href="https://www.linkedin.com/in/rhazes/"

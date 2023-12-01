@@ -46,9 +46,7 @@ const Home = () => {
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
           Rhazes Devino
         </h1>
-        <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0] full-stack-text">
-          {/* Teks akan diisi oleh Typed.js */}
-        </h2>
+        <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0] full-stack-text"></h2>
         {/* <p className="text-[#8892b0] py-4 max-w-[700px]">
           I am a full-stack developer with a specialization in crafting
           exceptional digital experiences, occasionally dipping into the realm

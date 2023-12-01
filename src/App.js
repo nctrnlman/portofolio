@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
+import Certificate from "./components/Certificate";
 import { ToastProvider } from "react-toast-notifications";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <About />
         <Skills />
         <Work />
+        <Certificate />
         <Contact />
       </ToastProvider>
     </div>
