@@ -4,8 +4,9 @@ import {
   FaTimes,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
-  FaLinkedinIn,
+  FaInstagram,
+  FaEnvelope,
+  FaWhatsapp,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -114,6 +115,41 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
+        <div className="flex items-center justify-center mt-4">
+          <div className="flex gap-4">
+            <a
+              href="https://www.linkedin.com/in/rhazes/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin size={30} />
+            </a>
+            <a
+              href="https://github.com/nctrnlman"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub size={30} />
+            </a>
+            <a
+              href="https://www.instagram.com/rhazes.d/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagram size={30} />
+            </a>
+            <a href="mailto:rhazesd@gmail.com">
+              <FaEnvelope size={30} />
+            </a>
+            <a
+              href="https://wa.me/6281221431716"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaWhatsapp size={30} />
+            </a>
+          </div>
+        </div>
       </ul>
 
       {/* Social icons */}
