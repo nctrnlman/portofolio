@@ -20,7 +20,7 @@ const About = () => {
           </div>
           <div></div>
         </div>
-        <div className="max-w-[1000px] mx-auto grid sm:grid-cols-2 gap-8 px-4 text-center">
+        <div className="max-w-[1000px] mx-auto grid sm:grid-cols-2 gap-8 p-4 text-center">
           <div className="sm:text-left text-4xl font-bold flex flex-col gap-6">
             <img
               src={RhazesImage}
@@ -66,7 +66,7 @@ const About = () => {
           <div className="text-justify py-4">
             <p>
               Welcome to my digital realm! I am Rhazes Devino, a dedicated
-              software architect with a passion for sculpting cutting-edge
+              Software Engineer with a passion for sculpting cutting-edge
               solutions that transcend expectations. My journey revolves around
               crafting software experiences that not only meet the needs of
               individuals, small businesses, and large corporations but also

@@ -11,10 +11,14 @@ import Tailwind from "../assets/tailwind.png";
 import Laravel from "../assets/laravel.png";
 import Mysql from "../assets/mysql.png";
 import Firebase from "../assets/firebase.png";
+import Figma from "../assets/figma.png";
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full h-screen bg-[#0a192f] text-gray-300">
+    <div
+      name="skills"
+      className="w-full h-screen bg-[#0a192f] text-gray-300 pt-[400px] md:pt-0"
+    >
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
@@ -71,6 +75,10 @@ const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Firebase} alt="HTML icon" />
             <p className="my-4">FIREBASE</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Figma} alt="HTML icon" />
+            <p className="my-4">FIGMA</p>
           </div>
         </div>
       </div>
