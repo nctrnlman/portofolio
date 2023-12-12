@@ -50,7 +50,7 @@ const About = () => {
                 >
                   <FaInstagram size={30} />
                 </a>
-                <a href="mailto:rhazesd@gmail.com">
+                <a href="mailto:contact.rhazes@gmail.com">
                   <FaEnvelope size={30} />
                 </a>
                 <a
