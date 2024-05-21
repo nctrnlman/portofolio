@@ -9,7 +9,7 @@ const Home = () => {
   useEffect(() => {
     // Konfigurasi Typed.js
     const options = {
-      strings: ["I'm a Full Stack Developer."],
+      strings: ["I'm a Full Stack Engineer."],
       typeSpeed: 100, // Kecepatan pengetikan (ms per karakter)
       backSpeed: 100, // Kecepatan penghapusan (ms per karakter)
       showCursor: true, // Menampilkan kursor

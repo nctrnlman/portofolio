@@ -12,6 +12,9 @@ import Laravel from "../assets/laravel.png";
 import Mysql from "../assets/mysql.png";
 import Firebase from "../assets/firebase.png";
 import Figma from "../assets/figma.png";
+import Mongo from "../assets/mongo.png";
+import Spring from "../assets/spring.png";
+import Next from "../assets/next.png";
 
 const Skills = () => {
   return (
@@ -79,6 +82,18 @@ const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Figma} alt="HTML icon" />
             <p className="my-4">FIGMA</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Mongo} alt="HTML icon" />
+            <p className="my-4">Mongo DB</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Spring} alt="HTML icon" />
+            <p className="my-4">Java Spring Boot</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-28 mx-auto" src={Next} alt="HTML icon" />
+            <p className="my-4">Next JS</p>
           </div>
         </div>
       </div>

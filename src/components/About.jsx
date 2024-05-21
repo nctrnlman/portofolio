@@ -6,7 +6,7 @@ import {
   FaEnvelope,
   FaWhatsapp,
 } from "react-icons/fa";
-import RhazesImage from "../assets/rhazes-image.jpg"; // Ganti dengan path yang sesuai
+import RhazesImage from "../assets/rhazes-image.jpg";
 
 const About = () => {
   return (
