@@ -9,7 +9,7 @@ function Certificate() {
   return (
     <div
       name="certificate"
-      className="w-full md:h-screen text-gray-300 bg-[#0a192f] md:pt-[800px] "
+      className="w-full md:h-screen text-gray-300 bg-[#0a192f] md:pt-[1000px] pt-20 "
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">

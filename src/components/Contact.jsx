@@ -39,7 +39,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-[400hv] bg-[#0a192f] flex justify-center items-center p-4 md:pt-[900px] "
+      className="w-full h-[400hv] bg-[#0a192f] flex justify-center items-center p-4 pt-20 md:pt-[900px] "
     >
       <form
         onSubmit={handleSubmit}
