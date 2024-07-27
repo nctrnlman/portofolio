@@ -9,7 +9,7 @@ const Work = () => {
   return (
     <div
       name="work"
-      className="w-full md:h-screen text-gray-300 bg-[#0a192f] pt-[800px] md:pt-20"
+      className="w-full md:h-screen text-gray-300 bg-[#0a192f]  py-[600px]"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -27,7 +27,7 @@ const Work = () => {
               key={index}
               style={{
                 backgroundImage: `url(${item.image})`,
-                backgroundSize: "100% 100%",
+                // backgroundSize: "100% 100%",
               }}
               className="shadow-lg shadow-[#040c16] group container rounded-md 
               flex justify-center text-center items-center mx-auto content-div "
