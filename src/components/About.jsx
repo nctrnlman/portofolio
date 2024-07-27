@@ -6,6 +6,7 @@ import {
   FaEnvelope,
   FaWhatsapp,
 } from "react-icons/fa";
+import { SiUpwork } from "react-icons/si";
 import RhazesImage from "../assets/rhazes-image.jpg";
 
 const About = () => {
@@ -59,6 +60,13 @@ const About = () => {
                   rel="noopener noreferrer"
                 >
                   <FaWhatsapp size={30} />
+                </a>
+                <a
+                  href="https://www.upwork.com/freelancers/~0155b70a0c909867ec?mp_source=share"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <SiUpwork size={30} />
                 </a>
               </div>
             </div>
